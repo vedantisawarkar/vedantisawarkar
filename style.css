@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navigation bar styling */
+
+.logo{
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.bg-purple{
+    background-color: rgba(137, 16, 173, 0.808);
+}
+.bg-pink{
+    background-color: rgba(110, 154, 250, 0.774);
+}
+.menu-link{
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu-link:hover{
+    color: rgba(10, 11, 14, 0.842);
+    padding: 1px;
+    font-weight: 700;
+}
+
+/* Slider Section */
+
+.slider-img img{
+    height: 95vh;
+}
+.slider-caption{
+    margin-bottom: 15%;
+}
+.slider-caption h5{
+    font-size: 40px;
+}
+.slider-caption p{
+    font-size: 25px;
+}
+
+/* fact start */
+
+.fact-body{
+    /* border: 2px solid rgb(236, 98, 98); */
+    /* height: 200px; */
+    box-shadow: 0px 0px 30px rgba(0, 21, 31, 0.342);
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s;
+}
+/* use section styling for common css */
+
+section {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+#facts .fact-body .fact-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#facts .fact-body .fact-text h3{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+}
+.fact-body:hover{
+    background-color: rgba(168, 19, 236, 0.637);
+    color: whitesmoke;
+    margin-top: -30px;
+}
+
+/* about me section start */
+
+.section-title{
+    padding: 15px;
+}
+.section-title h4{
+    color: rgb(97, 5, 5);
+}
+.section-title h2{
+    font-weight: 700;
+    border-bottom: 3px solid rgb(97, 5, 5);
+    display: inline;
+}
+
+.profile-content h2{
+    color: rgb(97, 5, 5);
+}
+.profile-img img{
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+ul{
+    list-style: none;
+}
+.details{
+    font-size: 18px;
+}
+
+/* portfolio start */
+
+.portfolio-img img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.portfolio-img img:hover{
+    margin-top: -15px;
+}
+
+#footer .social-icon a{
+    font-size: 18px;
+    display: inline-block;
+    padding: 8px 0;
+    line-height: 1;
+    text-align: center;
+    margin-right: 4px;
+    border: 1px solid rgba(0, 0, 255, 0.5);
+    border-radius: 50%;
+    background-color: rgba(0, 47, 255, 0);
+    color: whitesmoke;
+    width: 37px;
+    height: 37px;
+    transition: 0.5s;
+}
+
+#footer .social-icon a:hover{
+    background-color: whitesmoke;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Contact Section Start */
+.box{
+    /* border: 2px solid rgb(196, 196, 212); */
+
+    box-shadow: 0px 0px 10px rgba(152, 152, 240, 0.658);
+}
+i{
+    color: rgb(192, 61, 224);
+}
